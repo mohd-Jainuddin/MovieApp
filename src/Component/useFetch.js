@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 // setting the api link
-export const API_URL = `http://www.omdbapi.com/?apikey=727bbdc1`;
+export const API_URL = `https://www.omdbapi.com/?apikey=727bbdc1`;
 
 const useFetch = (apiParams) => {
   const [isLoading, setIsLoading] = useState(true);
